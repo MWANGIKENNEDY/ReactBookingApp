@@ -1,0 +1,16 @@
+.footerItems{
+    display: flex;
+    justify-content: space-between;
+    color: #3088ff;
+    font-weight: 500;
+
+}
+
+.cRight{
+    text-align: center;
+    font-weight: 800;
+    padding: 1rem 0rem;
+}
+li{
+    padding: .3rem;
+}

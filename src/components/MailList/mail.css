@@ -1,0 +1,29 @@
+.mail{
+    width: 100%;
+    background: #003580;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+.mailCta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.tt{
+    font-size: 2.75rem;
+}
+
+.st{
+    font-size: 1.25rem;
+    color: white;
+}
+
+.mBtn{
+    background: white;
+    padding: .9rem;
+}

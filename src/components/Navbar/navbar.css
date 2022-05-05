@@ -1,0 +1,68 @@
+.navbar-wrapper{
+    width: 100%;
+    background: #003580;
+    height: 20vh;
+    padding-bottom: .5rem;
+}
+
+.navbar-wrapper.test{
+    padding-bottom: 3rem;
+
+}
+
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: .4rem;
+}
+
+.btn{
+    padding: .6rem 1rem;
+    display: block;
+    font-weight: 500;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #003580;
+
+}
+
+.navbar.type{
+    padding-bottom: 3rem;
+}
+
+.navlinks ul{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.actions{
+    background: white;
+    color: #0157c7;
+
+}
+
+.list-property{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.currency{
+    color: white;
+}
+
+.icons{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.currency:hover,.icons:hover{
+    background: #3088ff;
+}

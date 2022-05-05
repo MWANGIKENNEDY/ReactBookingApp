@@ -1,0 +1,31 @@
+.links{
+    display: flex;
+    align-items: center;
+    gap:.6rem;
+
+}
+
+
+
+.link{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    padding: .3rem 1.3rem;
+    border-radius: 100px;
+}
+
+.link.active{
+    border: 1px solid white;
+    background: #0049a4;
+}
+
+.link span:first-child{
+    font-size: 1.5rem;
+}
+
+.link span:nth-child(2){
+    font-weight: 500;
+}
+

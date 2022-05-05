@@ -1,0 +1,175 @@
+.description1{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 1rem 0rem;
+}
+
+.items-wrapper{
+    position: relative;
+    z-index: 100;
+
+
+}
+
+.images-modal{
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0,0,0,.9);
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 1000000;
+}
+
+.tesy{
+    position: absolute;
+    right: 3rem;
+    top: 1rem;
+    background: red;
+}
+
+.show-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: white;
+    z-index: 10000;
+    transform: translateY(-50%) translateX(-50%);
+    width: 80%;
+    height: 80%;
+}
+
+.mImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn-left{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    color: white;
+    font-size: 2rem;
+    transform: translateY(-50%);
+
+}
+
+.btn-right{
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    color: white;
+    font-size: 2rem;
+    transform: translateY(-50%);
+
+}
+
+
+
+.description-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: lightblue;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.description-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.t1{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.t2{
+    font-size: .8rem;
+}
+
+.t3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+
+}
+
+.t3-inner{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.description-left-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.images-hotel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.titleSection{
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.imageWrapper2{
+    width: 30%;
+    flex-grow: 1;
+}
+
+.img-ht{
+    width: 100%;
+    object-fit: cover;
+}
+
+.mainTitle{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.location-map{
+    font-size: .8rem;
+}
+
+.location-area{
+    color: blue;
+}
+
+.sub-title{
+    color: green;
+}
+
+.titleSection{
+    position: relative;
+}
+
+.reserve-book{
+    display: inline-block;
+    width: max-content;
+    border-radius: 10px;
+    padding: .5rem 1rem;
+    color: white;
+    background: blue;
+    font-weight: 800;
+}
+
+.toppa{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+

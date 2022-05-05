@@ -1,0 +1,31 @@
+.lower{
+    display: block;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+    margin: 0;
+}
+p{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.myHeader{
+    background: #003580;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    position: relative;
+    height: 45vh;
+}
+
+.btn-cta{
+    padding: .8rem 1.3rem;
+    display: inline-block;
+    color: white;
+
+    margin: 2rem 0rem 5rem 0rem;
+    background: #015fd2;
+    font-weight: 500;
+}
